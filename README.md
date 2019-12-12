@@ -11,6 +11,18 @@ Your app should have the following features:
   * The user should be able to click on one of the gifs on the right sidebar to make it appear in the left area
   * The list of gifs should change when the user types a search string
 
+### Showing gifs
+
+In Giphy every gif has a source in the following format:
+
+```
+https://media.giphy.com/media/ID_OF_THE_GIF/giphy.gif
+```
+
+And this address can actually be copied for every image and they call it _GIF link_ (search for the link icon — the chain icon).
+
+You can use the above URL to **dynamically** change the ID, depending on what you want to show!
+
 ### Giphy API
 
 You will need to get an api key from https://developers.giphy.com/ and to interact with the API there's a NPM package for that:
@@ -26,7 +38,3 @@ Documentation: https://www.npmjs.com/package/giphy-api
 ## Boilerplate
 
 Basic CSS styles to be used in the app: http://bit.ly/giphy-styles
-
-Bootstrap 4: https://www.bootstrapcdn.com/ (add the CDN link to your <head> in index.html)
-
-Fontawesome: https://www.bootstrapcdn.com/fontawesome/ (add the CDN link to your <head> in index.html)
