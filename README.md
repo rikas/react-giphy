@@ -43,7 +43,7 @@ GIPHY_API='KI9wl2DyhOo51x2tscVMTti9cT1HeaeB'
 
 And then read it in your JavaScript code by using `process.env.GIPHY_API`. Keep in mind that this still exposes your API key to the world as it will be present in the compiled version of your JavaScript.
 
-#### Debouncing the inpute to avoid too many requests
+#### Debouncing the input to avoid too many requests
 
 As the user types your app will make API calls to search for gifs. Probably you will have problems because if you're not careful you'll actually do one API call everytime the user types a character. We can avoid this by having a **debounce** behaviour.
 
