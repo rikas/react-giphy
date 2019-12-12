@@ -11,6 +11,8 @@ Your app should have the following features:
   * The user should be able to click on one of the gifs on the right sidebar to make it appear in the left area
   * The list of gifs should change when the user types a search string
 
+### Giphy API
+
 You will need to get an api key from https://developers.giphy.com/ and to interact with the API there's a NPM package for that:
 
 ```bash
