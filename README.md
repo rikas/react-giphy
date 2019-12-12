@@ -33,6 +33,17 @@ yarn add giphy-api
 
 Documentation: https://www.npmjs.com/package/giphy-api
 
+Example:
+
+```js
+import giphy from 'giphy-api';
+
+giphy(YOUR_API_KEY_HERE).search({ q: value, rating: 'g', limit: 10 }, (_err, res) => {
+  console.log(res);
+  // Do something with the result here!
+});
+```
+
 #### Storing the API key
 
 You can store your API key in a `.env` file, for example:
