@@ -17,6 +17,8 @@ You will need to get an api key from https://developers.giphy.com/ and to intera
 yarn add giphy-api
 ```
 
+Documentation: https://www.npmjs.com/package/giphy-api
+
 **Note**: as the user types your app will make API calls to search for gifs. Probably you will have problems because if you're not careful you'll actually do one API call everytime the user types a character. We can avoid this by having a **debounce** behaviour. Luckily there's a NPM package to solve the problem - `react-debounce-input`
 
 ## Boilerplate
