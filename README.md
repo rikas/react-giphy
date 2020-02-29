@@ -11,6 +11,27 @@ Your app should have the following features:
   * The user should be able to click on one of the gifs on the right sidebar to make it appear in the left area
   * The list of gifs should change when the user types a search string
 
+## Boilerplate
+
+You can start with this structure to speed up your development:
+
+```html
+  <div className="app">
+    <div className="left-scene">
+      <input className="form-search" />
+      <div className="selected-gif">
+        THE SELECTED GIF HERE
+      </div>
+    </div>
+
+    <div className="right-scene">
+      THE SIDEBAR GIF LIST HERE
+    </div>
+  </div>
+```
+
+Basic CSS styles to be used in the app: http://bit.ly/giphy-styles
+
 ### Showing gifs
 
 In Giphy every gif has a source in the following format:
@@ -71,7 +92,3 @@ Example:
    debounceTimeout={300}
    onChange={handleUpdate} />
 ```
-
-## Boilerplate
-
-Basic CSS styles to be used in the app: http://bit.ly/giphy-styles
